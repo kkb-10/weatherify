@@ -1,6 +1,6 @@
 # weatherify
 
-A simple weather application using Flutter
+A basic weather application using Flutter
 
 ## Search Screen
 ![App_Screens](/images/image1.png)
