@@ -1,8 +1,7 @@
 # weatherify
 
 A simple weather application using Flutter
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+
 
 ## Getting Started
 
