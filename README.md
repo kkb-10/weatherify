@@ -2,6 +2,7 @@
 
 A simple weather application using Flutter
 
+![App_Screens](/images/image1.png)
 
 ## Getting Started
 
