@@ -65,6 +65,7 @@ class _LocationScreenState extends State<LocationScreen> {
         constraints: BoxConstraints.expand(),
         child: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               Row(
@@ -101,9 +102,6 @@ class _LocationScreenState extends State<LocationScreen> {
                     ),
                   ),
                 ],
-              ), //Contains Buttons
-              SizedBox(
-                height: 100.0,
               ),
               Column(
                 children: <Widget>[
@@ -152,6 +150,43 @@ class _LocationScreenState extends State<LocationScreen> {
                   ),
                 ],
               ),
+              Column(
+                children: <Widget>[
+                  CircleAvatar(
+                    radius: 30.0,
+                    backgroundImage: AssetImage('images/ic_launcher_round.png'),
+                  ),
+                  SizedBox(
+                    height: 15.0,
+                  ),
+                  Text(
+                    'Created By Kirti Kunj Bajpai',
+                    style: TextStyle(
+                      fontFamily: 'Pacifico',
+                      fontSize: 25.0,
+                      color: Colors.white,
+                    ),
+                  ),
+                  Text(
+                    'Flutter Developer',
+                    style: TextStyle(
+                      fontFamily: 'Pacifico',
+                      fontSize: 20.0,
+                      color: Colors.white,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                  Text(
+                    'Competitive Programmer',
+                    style: TextStyle(
+                      fontFamily: 'Pacifico',
+                      fontSize: 20.0,
+                      color: Colors.white,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ],
+              )
             ],
           ),
         ),
