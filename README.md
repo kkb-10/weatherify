@@ -9,7 +9,7 @@
 
 ***Languages->*** Dart
 
-***Tools and Frameworks->*** Flutter
+***Tools and Frameworks->*** Flutter, Android Studio
 
 ## Search Screen
 ![App_Screens](/images/image1.png)
