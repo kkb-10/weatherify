@@ -3,7 +3,7 @@
 - A basic weather application using built using Flutter-dart
 - It can provide complete weather results for present location using mobile GPS. 
 - It also allow us to fetch weather results of any other location. 
-- It uses a third party API for peoviding these weather results.
+- It uses a third party API for providing these weather results.
 
 ## Technology Stack
 
