@@ -1,6 +1,9 @@
 # Weatherify
 
-A basic weather application using Flutter which would use mobile GPS to give live weather results of a particular location or allow us to fetch weather results of any other location using OpenWeatherMap API.
+- A basic weather application using built using Flutter-dart
+- It can provide complete weather results for present location using mobile GPS. 
+- It also allow us to fetch weather results of any other location. 
+- It uses a third party API for peoviding these weather results.
 
 ## Search Screen
 ![App_Screens](/images/image1.png)
